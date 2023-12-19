@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    background-color: darkolivegreen;
+    padding:1px;
+    border-bottom: 10px solid bisque;
+  }
+  
+  header nav ul {
+    display:flex;
+    justify-content: end;
+    gap:2vw;
+    list-style-type: none;
+    margin-right: 2vw;
+  }
+  li {
+     
+      background-color: darkolivegreen;
+      font-size: 25px;
+      font-weight: bold;
+     
+  }
+  
+  a {
+      color: white;
+      text-decoration: none;
+  }
+  a:hover{
+      color: yellowgreen
+  }
