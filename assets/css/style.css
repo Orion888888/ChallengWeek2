@@ -7,9 +7,11 @@ body{
 
 header {
   width: 100%;
-  background-color: rgb(14, 172, 203);
+  background-color: rgb(50, 160, 182);
   padding:1px;
-  border-bottom: 10px solid rgb(138, 95, 160);
+  border-bottom: 10px solid rgba(138, 95, 160, 0.743);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
 }
 
 header nav ul {
@@ -31,17 +33,21 @@ header nav ul {
   left: 260px;
   position: left;
   border: 3px, dotted #555;
-  border-radius: 5px;
+  border-radius: 20px;
   transition-duration: 3s;
   box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
-  background-color: plum;
+  background-color: rgb(155, 100, 155);
   font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  font-weight: lighter;
   
 }
 .button:hover{
   cursor:pointer;
   box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
   transform: scale(1.2);
+  color: aliceblue;
 }
 
 img{
@@ -54,13 +60,17 @@ img{
 .page-section{
 display: flex;
 flex-wrap: wrap;
-gap:5vh;
+gap:4vh;
 justify-content: center;
-border: rgba(0, 0, 0, 0.638) 3px dotted;
+border: rgba(0, 0, 0, 0.638) 3px solid;
+border-width: 3px 1.5px 3px 3px;
 border-radius: 20px;
 margin-left: 200px;
 margin-right: 200px;
 margin-top: 5px;
+transition-duration: 3s; 
+box-shadow: inset;
+padding: 40px 30px;
 
 }
 .title-container{
@@ -83,11 +93,19 @@ margin: auto;
   
 }
 
-.column1{
+.leftColumn{
   
   float: left;
   width: 20%;
   padding: 10px;
+  max-width: 80%;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2em;
+  position: relative;
 }
 
 footer{
