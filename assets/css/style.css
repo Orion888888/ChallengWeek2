@@ -4,7 +4,7 @@ body{
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
 }
-
+/* This section manipulates the header structure to include the retro color scheme I chose.*/
 header {
   width: 100%;
   background-color: rgb(50, 160, 182);
@@ -14,6 +14,8 @@ header {
   font-size: large;
 }
 
+/* The following code sections focus on the navigation and motion that I added
+to the buttons. They grow and change color when the cursor hovers over.*/
 header nav ul {
   display:flex;
   justify-content: end;
@@ -51,6 +53,8 @@ header nav ul {
   color: aliceblue;
 }
 
+/* The followig sections focus on the style of the body, box alignments and left column.
+The sizing and other effects are also indicated in the code. */
 .page-section{
 display: flex;
 flex: wrap;
@@ -96,6 +100,16 @@ h1{
   margin-left: 2vh;
 }
 
+/*The image section focus on the sizing and effects of hover, motion and sizing.
+I added code to the suit image to be position at a specific row and column.*/
+.img-profile{
+  width: 50%;
+  height: 50%;
+  border-radius: 40%;
+  opacity: 100%;
+  margin-right: 5vw;
+}
+
 img{
   background-size: cover;
   background-repeat: no-repeat;
@@ -138,6 +152,8 @@ img:hover{
   object-fit: cover;
 }
 
+/*The banner is for the text overlay at the contact image that also serves as a image link.
+Digication Page.*/
 .banner{
   position: relative;
   width: 90%;
@@ -162,7 +178,7 @@ border-bottom: 10px solid rgb(138, 95, 160);
 
 }
 
-
+/*Resizing of the entire webpage to fit within different parameter of display.*/
 @media screen and (max-width: 2400px) {
   .image-section{
     --num-cols:4;
