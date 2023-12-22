@@ -80,7 +80,7 @@ text-align: left;
   margin-right: 40px;
   margin-top: 40px;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 350px;
   line-height: 2em;
   position: relative;
@@ -94,7 +94,7 @@ text-align: left;
 h1{
   display: wrap;
   gap: 20vh;
-  font-size: 60px;
+  font-size: 50px;
   text-align: left;
   margin-left: 2vh;
 
@@ -136,12 +136,22 @@ img{
   object-fit: cover;
 }
 
-/*.banner{
+.banner{
   position: relative;
   width: 90%;
   margin: 0 auto;
 }
-*/
+
+.banner img{
+  width: 100%;
+}
+.heading{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: x-small;
+}
 
 footer{
 background-color: rgb(14, 172, 203);
@@ -174,7 +184,10 @@ border-bottom: 10px solid rgb(138, 95, 160);
   .title-container{
     max-width:604.5px;
     min-width:604.5px;
-  
+  }
+  .leftColumn, h1{
+    font-size: medium;
+    min-width: none;
   }
 
 }
